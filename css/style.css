@@ -114,3 +114,26 @@ p {
 .about-txt {
   padding: 10px 20px;
 }
+
+@media (max-width: 762px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .app-preview {
+    display: none;
+  }
+  .app-description {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+}
